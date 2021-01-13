@@ -1,0 +1,89 @@
+.form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.brand-select,
+.model-select,
+.year-select,
+.phone-input,
+.form-btn {
+  width: 200px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .form {
+    flex-direction: column;
+    width: 90%;
+    background: none;
+  }
+
+  .brand-select,
+  .model-select,
+  .year-select,
+  .phone-input,
+  .form-btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.phone-input {
+  padding: 0 15px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #444;
+  border: 1px solid #aaa;
+  outline: none;
+}
+
+.phone-input::placeholder {
+  color: #444;
+}
+
+.form-btn {
+  background-color: #0166ff;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #468efa;
+}
+
+.select2-container .select2-selection--single {
+  height: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .select2-container {
+    margin-bottom: 10px;
+  }
+}
+
+.select2-container--classic .select2-selection--single {
+  border-radius: 2px;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__arrow {
+  height: 38px;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__rendered {
+  line-height: 38px;
+}
+
+#phone::-webkit-inner-spin-button,
+#phone::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

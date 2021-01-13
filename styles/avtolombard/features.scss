@@ -1,0 +1,111 @@
+.features-wrap {
+  background-image: url("/img/avtolombard/features_back.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.features {
+  padding: 60px 3% 90px;
+}
+
+.features-title {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.features-text {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.features-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.features-item {
+  max-width: 30%;
+  padding: 30px 40px;
+  text-align: justify;
+  background-color: #fff;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.features-h3 {
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.features-h3:before {
+  position: absolute;
+  content: '';
+  height: 80px;
+  width: 80px;
+  top: -80px;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.features-item:nth-child(1) .features-h3:before {
+ background-image: url("/img/avtolombard/features_money.svg");
+}
+
+.features-item:nth-child(2) .features-h3:before {
+  background-image: url("/img/avtolombard/features_percent.svg");
+}
+
+.features-item:nth-child(3) .features-h3:before {
+  background-image: url("/img/avtolombard/features_calendar.svg");
+}
+
+.features-desc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 900px) {
+  .features {
+    padding: 30px 3% 30px;
+  }
+
+  .features-title {
+    margin-bottom: 15px;
+    font-size: 26px;
+    text-align: left;
+  }
+
+  .features-text {
+    font-size: 14px;
+  }
+
+  .features-items {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .features-item {
+    max-width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+  }
+
+  .features-h3 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .features-h3:before {
+    left: calc(50% - 30px);
+  }
+}

@@ -1,0 +1,111 @@
+.benefits {
+  padding: 60px 3% 90px;
+}
+
+.benefits-h2 {
+  position: relative;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.benefits-h2:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #3297e1;
+}
+
+.benefits-text {
+  margin-bottom: 50px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.benefits-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits-item {
+  position: relative;
+  max-width: 330px;
+  padding: 90px 30px 20px;
+}
+
+.benefits-item:nth-child(1):before,
+.benefits-item:nth-child(2):before,
+.benefits-item:nth-child(3):before {
+  position: absolute;
+  content: '';
+  height: 90px;
+  width: 90px;
+  top: 0;
+  left: 30px;
+  background-size: contain;
+}
+
+.benefits-item:nth-child(1):before {
+  background-image: url("/img/avtolombard/benefits_manager.svg");
+}
+
+.benefits-item:nth-child(2):before {
+  background-image: url("/img/avtolombard/benefits_time.svg");
+}
+
+.benefits-item:nth-child(3):before {
+  background-image: url("/img/avtolombard/benefits_document.svg");
+}
+
+.benefits-title {
+  width: 190px;
+  margin: 15px 0;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  color: #0c2c4d;
+}
+
+.benefits-desc {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+  .benefits {
+    padding: 40px 3% 20px;
+  }
+  .benefits-items {
+    flex-direction: column;
+  }
+
+  .benefits-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 85px 0 20px;
+  }
+
+  .benefits-item:nth-child(1):before,
+  .benefits-item:nth-child(2):before,
+  .benefits-item:nth-child(3):before {
+    left: calc(50% - 45px);
+  }
+
+  .benefits-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefits-text {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}

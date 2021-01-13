@@ -1,0 +1,88 @@
+.lombard-wrap {
+  background-color: #f5f6fa;
+
+}
+.lombard {
+  padding: 80px 3%;
+  background-repeat: no-repeat;
+  background-image: url("/img/avtolombard/lombard.png");
+  background-position: 100% 100%;
+}
+
+.lombard-title {
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.lombard-title:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #3297e1;
+}
+
+.lombard-text {
+  margin-bottom: 50px;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.lombard-list {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.lombard-list:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-image: url("/img/avtolombard/list.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1050px) {
+  .lombard {
+    background-size: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lombard {
+    height: 650px;
+    padding: 20px 3%;
+    background-size: 60%;
+    background-position: 50% 100%;
+  }
+
+  .lombard-title:after {
+    width: 70%;
+  }
+
+  .lombard-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .lombard-list {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .lombard {
+    height: 700px;
+  }
+}

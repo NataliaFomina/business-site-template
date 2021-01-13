@@ -1,0 +1,103 @@
+.banner-wrap {
+  background-color: #f5f6fa;
+}
+
+.banner {
+  padding: 50px 3% 70px;
+  background-image: url("/img/avtolombard/auto_lom.jpg");
+  background-size: cover;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+.banner-title {
+  margin-bottom: 40px;
+  font-size: 34px;
+  color: #0c3548;
+}
+
+.banner-list {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.banner-list:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-image: url("/img/avtolombard/list.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-btn {
+  margin-top: 40px;
+  font-size: 18px;
+  background: linear-gradient(to top right, #41b782, #86d169);
+  border-radius: 35px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.banner-btn:hover {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.banner-btn a {
+  display: block;
+  padding: 18px 35px;
+  text-decoration: none;
+  color: white;
+}
+
+/* banner-zalog */
+.banner-zalog {
+  padding: 50px 3% 75px;
+  background-image: url("/img/avtolombard/banner_zalog.jpg");
+  background-size: 90%;
+}
+/* banner-zalog */
+
+@media screen and (max-width: 1150px) {
+  .banner {
+    background-size: 90%;
+    background-position: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    height: 570px;
+    background-image: url("/img/avtolombard/auto_lom_mob.jpg");
+    background-size: 100%;
+  }
+
+  .banner-title {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  .banner-list {
+    font-size: 18px;
+  }
+
+  .banner-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .banner-zalog {
+    height: 750px;
+    background-image: url("/img/avtolombard/banner_zalog_mob.jpg");
+  }
+}

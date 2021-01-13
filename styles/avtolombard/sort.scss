@@ -1,0 +1,48 @@
+.sort-wrap {
+  background-color: #f5f6fa;
+}
+
+.sort {
+  display: flex;
+  padding: 0 3%;
+}
+
+.sort-icon {
+  width: 218px;
+  height: 179px;
+}
+
+.sort-container {
+  padding: 30px 0 30px 30px;
+}
+
+.sort-h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sort-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .sort {
+    flex-direction: column;
+  }
+
+  .sort-icon {
+    order: 2;
+  }
+
+  .sort-container {
+    order: 1;
+  }
+
+  .sort-container {
+    padding: 20px 0 10px;
+  }
+}

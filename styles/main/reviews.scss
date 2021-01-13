@@ -1,0 +1,110 @@
+.reviews-wrapper {
+  background: linear-gradient(to right, #e7f0fd, #accbee);
+}
+
+.reviews {
+  padding: 40px 3% 70px;
+}
+
+.reviews-slider-wrapper {
+  margin-top: 30px;
+}
+.reviews-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.reviews-slider-wrapper > .slider-item {
+  position: relative;
+  flex: 0 0 100%; /* определяет количество активных слайдов (в данном случае 2 */
+  max-width: 100%; /* определяет количество активных слайдов (в данном случае 2 */
+}
+
+.reviews-img {
+  position: absolute;
+  top: calc(50% - 70px);
+  left: calc(25% - 70px);
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.reviews-container {
+  width: 55%;
+  min-height: 220px;
+  padding: 40px 60px 40px 120px;
+  margin-left: 25%;
+  background-color: white;
+  box-shadow: 0 6px 46px 0 rgba(1, 1, 1, .1);
+  border-radius: 5px;
+}
+
+.reviews-name {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0c3548;
+}
+
+.reviews-text {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.reviews-slider > .slider-control {
+  width: 60px;
+  height: 60px;
+  opacity: 1;
+  background: white;
+  border-radius: 50%;
+}
+
+.reviews-slider > .slider-control:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.reviews-rate {
+  height: 20px;
+  width: 100px;
+  margin-top: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.reviews-stars-4 {
+  background-image: url("/img/reviews_stars_4.svg");
+}
+
+.reviews-stars-5 {
+  background-image: url("/img/reviews_stars_5.svg");
+}
+
+@media screen and (max-width: 750px) {
+  .reviews-img {
+    top: 0;
+    left: calc(50% - 70px);
+  }
+
+  .reviews-container {
+    width: calc(100% - 100px);
+    min-height: auto;
+    padding: 50px 20px 20px 20px;
+    margin: 100px auto 0;
+    background-color: white;
+  }
+
+  .reviews-text {
+    font-size: 12px;
+  }
+
+  .reviews-slider > .slider-control {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    background: white;
+    border-radius: 50%;
+  }
+}

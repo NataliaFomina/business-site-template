@@ -1,0 +1,132 @@
+.types-wrap {
+  background-image: url("/img/avtolombard/types_back.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.types {
+  padding: 80px 3%;
+}
+
+.types-h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.types-text {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.types-items {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.types-item {
+  position: relative;
+  width: 33%;
+  padding: 120px 40px 30px;
+  text-align: justify;
+}
+
+.types-item:nth-child(1) {
+  background-color: white;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.types-item:before {
+  position: absolute;
+  content: '';
+  top: 30px;
+  left: 40px;
+  height: 90px;
+  width: 90px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.types-item:nth-child(1):before {
+  background-image: url("/img/avtolombard/types_cars.svg");
+}
+
+.types-item:nth-child(2):before {
+  background-image: url("/img/avtolombard/types_trucks.svg");
+}
+
+.types-item:nth-child(3):before {
+  background-image: url("/img/avtolombard/types_equipment.svg");
+}
+
+.types-item:nth-child(4):before {
+  background-image: url("/img/avtolombard/types_moto.svg");
+}
+
+.types-item:nth-child(5):before {
+  background-image: url("/img/avtolombard/types_water.svg");
+}
+
+.types-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.types-desc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 950px) {
+  .types-wrap {
+    background-image: none;
+  }
+
+  .types {
+    padding: 30px 3%;
+  }
+
+  .types-h2 {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 24px;
+  }
+
+  .types-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .types-items {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .types-item {
+    width: 100%;
+    padding: 0 0 20px 90px;
+  }
+
+  .types-item:nth-child(1) {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .types-item:before {
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+  }
+
+  .types-title {
+    margin-top: 0;
+  }
+}

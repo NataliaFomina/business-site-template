@@ -1,0 +1,106 @@
+.steps-wrap {
+  padding-bottom: 160px;
+  margin-bottom: -160px;
+  background-image: url('/img/avtolombard/step_back.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+}
+
+.steps {
+  padding: 100px 3%;
+}
+
+.steps-title {
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.steps-title:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #3297e1;
+}
+
+.steps-items {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.steps-item {
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-icon img {
+  height: 140px;
+  width: 155px;
+}
+
+.steps-h3 {
+  margin: 40px 0 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.steps-desc {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1024px) {
+  .steps-wrap {
+    background-image: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .steps {
+    padding: 50px 0;
+  }
+
+  .steps-title {
+    padding: 0 7%;
+  }
+
+  .steps-title:after {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  .steps-items {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+
+  .steps-item {
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .steps-container {
+    padding: 0 7% 0 3%;
+  }
+
+  .steps-h3 {
+    margin: 0px 0 15px;
+  }
+
+  .steps-icon img {
+    height: 120px;
+    width: 120px;
+  }
+}

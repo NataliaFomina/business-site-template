@@ -1,0 +1,8 @@
+<svg class="features-lom__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px" viewBox="0 0 22.3 21.2" style="enable-background:new 0 0 22.3 21.2;" xml:space="preserve">
+              <g>
+              <polygon style="fill:none;stroke:#7A7A7A;stroke-width:0.5207;stroke-miterlimit:10;" points="8.7,4.8 10.3,4.1 10.9,5.7 12.6,5.7 12.6,7.3 14,8 13.4,9.5 14.6,10.8 13.4,11.9 14.2,13.6 12.6,14.1 12.6,15.7 10.9,15.8 10.3,17.2 8.7,16.7 7.5,17.9 6.4,16.7 4.8,17.3 4.1,15.8 2.5,15.8 2.5,14.1 0.9,13.4 1.6,11.9 0.4,10.6 1.6,9.6 1,7.9 2.5,7.3 2.5,5.7 4.1,5.7 4.8,4 6.3,4.8 7.5,3.7 "/>
+                  <ellipse style="fill:none;stroke:#7A7A7A;stroke-width:0.4166;stroke-miterlimit:10;" cx="5.9" cy="9.6" rx="1" ry="1"/>
+                  <ellipse style="fill:none;stroke:#7A7A7A;stroke-width:0.4166;stroke-miterlimit:10;" cx="9.2" cy="12.6" rx="1" ry="1"/>
+                  <path style="fill:#7A7A7A;" d="M9.2,8.8l-3.6,4.2c-0.1,0.1,0,0.2,0,0.2l0.1,0.1c0.1,0.1,0.2,0,0.2,0L9.5,9c0.1-0.1,0-0.2,0-0.2 L9.4,8.7C9.3,8.7,9.2,8.7,9.2,8.8z"/>
+              </g>
+</svg>
